@@ -1,10 +1,9 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-all font-family="sans-serif" color="#171615" line-height="1rem"></mj-all>
+      <mj-all font-family="sans-serif" font-size="0.8rem" color="#171615" line-height="1.45rem"></mj-all>
       <mj-button background-color="#ebebeb" color="#f2f2f2"></mj-button>
       <mj-section background-color="#f2f2f2"></mj-section>
-      </mj-all>
     </mj-attributes>
     <mj-style>a {color: #fa8756 !important; text-decoration: none; } .useful-link {color: #f2f2f2 !important; text-decoration: none; } .useful-link:hover {color: #fa8756 !important; text-decoration: none; } .header-section { height: 10rem !important; } .main-section
       {margin-top: -5rem !important;} .mj-section {background-color: #f2f2f2;}
@@ -18,7 +17,7 @@
       <mj-column padding="0px" width="30%">
         <mj-image width="130%" src="./images/logo.png" align="left" padding-bottom="90px"></mj-image>
       </mj-column>
-      <mj-column padding-bottom="0px" width="70%" vertical-align=top>
+      <mj-column padding-bottom="0px" width="70%" vertical-align="top">
         <mj-text font-size="0.6rem" color="#f2f2f2" align="right" padding-right="1rem" padding="0px">If you have trouble viewing this email, click <a href="#">here</a></mj-text>
       </mj-column>
     </mj-section>
@@ -39,78 +38,99 @@
     <mj-section background-color="#fa8756" padding-top="0rem" padding-bottom="0rem">
       <mj-raw>
         <div style="display: flex; flex-basis: 0; height: 5rem; align-items: center;">
-          <div style="flex-grow: 7; color: #171615; font-weight: bold; font-size: 0.8rem;text-align: left;
-margin-left: 1em;">Development updates</div> <a href="https://mastodon.social/@apertus"><img style="flex-grow: 1; width: 2rem; height: 2rem; margin-right: 0.3rem;" src="./images/mastodon.png"></img></a> <a href="https://twitter.com/ApertusOSCinema"><img style="flex-grow: 1; width: 2rem; height: 2rem; margin-right: 1rem;" src="./images/twitter.png"></img></a>          </div>
+          <div style="flex-grow: 7; color: #171615; font-weight: bold; font-size: 0.9rem;text-align: left;
+margin-left: 1.8em;">Development updates</div>
+          <a href="https://mastodon.social/@apertus"><img style="flex-grow: 1; width: 2rem; height: 2rem; margin-right: 1.5rem;" src="./images/mastodon.png"></img></a>
+          <a href="https://twitter.com/ApertusOSCinema"><img style="flex-grow: 1; width: 2rem; height: 2rem; margin-right: 1.5rem;" src="./images/twitter.png"></img></a> </div>
       </mj-raw>
     </mj-section>
 
-    <mj-section>
+    <mj-section padding="0">
       <mj-column>
-        <mj-image src="./images/bigImg.jpg" padding="0px"></mj-image>
-        <mj-text background-color="rgb(71,71,71)" font-size="0.8rem" color="#f2f2f2">Neptec: International Space Station</mj-text>
+        <mj-image src="./images/bigImge.jpg" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#474747" padding="0">
+      <mj-column>
+        <mj-text color="#f2f2f2" font-size="0.8rem" color="#f2f2f2">Neptec: International Space Station</mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section>
       <mj-column>
-        <mj-text font-size="1.1rem">Notes on Schedule</mj-text>
+        <mj-text font-size="0.9rem" font-weight="bold">Notes on Schedule</mj-text>
         <mj-text>Good progress has been made since we listed eleven remaining tasks regarding the camera's road-map in the project's <a href="https://wiki.apertus.org/index.php/Mission_Briefings">Wiki</a>. There have been some obstacles which have delayed things
           e.g. the holidays and some bouts of flu, but in general we're happy with what's been done over the past three months. The community is focusing on the final four points in the aforementioned list; Enclosure milling, WiFi stick evaluation, CE
           / FCC certification, and automated firmware builds.</mj-text>
         <mj-text></mj-text>
-        <mj-text font-size="1.1rem">Neptec</mj-text>
+        <mj-text font-size="0.9rem" font-weight="bold">Neptec</mj-text>
         <mj-text>This month an AXIOM Beta Developer Kit was shipped to the Neptec research lab in North America. The team there are building a camera that's destined for the International Space Station and ABDK is being used as a reference to work from. Whilst
           the camera didn't quite make it this time, it's one step closer to being launched into outer space. Links to reading in Case Studies.</mj-text>
         <mj-text><a href="https://wiki.apertus.org/index.php/AXIOM_Beta/Case_Studies">Case Studies</a></mj-text>
+
+        <mj-text></mj-text>
+        <mj-text font-size="0.9rem" font-weight="bold">Newsletter</mj-text>
+        <mj-text>The newsletter will be sent out on a monhtly basis. This is a new format so any feedback or suggestions with regards to what should be covered would be appreciated.</mj-text>
+        <mj-text><a href="https://lab.apertus.org/T986">Task 986</a> - Newsletter Feedback</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
-      <mj-column>
-        <mj-text font-size="1.1rem">GSoC 2018</mj-text>
+      <mj-column vertical-align="top">
+        <mj-text font-size="0.9rem" font-weight="bold">GSoC 2018</mj-text>
         <mj-text>We’re participating in Google's Summer of Code (GSoC) program again for 2018. Throughout February applicants have been discussing potential tasks and getting to grips with camera firmware and OpenCine repos. This year the application process was
           changed to incorporate VHDL, C/C++, Kernel and QEMU related challenges. If you’d like to participate in GSoC then the application period begins on March 12th and ends March 27th. It's not to late to get involved or notify someone who you think
           might want to participate.</mj-text>
         <mj-text><a href="https://wiki.apertus.org/index.php/GSoC_Overview">GSoC Overview</a></mj-text>
       </mj-column>
-      <mj-column>
-        <mj-text font-size="1.1rem">QEMU Emulation</mj-text>
-        <mj-text><a href="#">QEMU</a> is a generic and open source machine emulator and virtualizer. When used as a machine emulator, QEMU can run OSes and programs made for one machine (e.g. an ARM board) on a different machine (e.g. your own PC). By using dynamic
-          translation, it achieves very good performance.</mj-text>
+      <mj-column vertical-align="top">
+        <mj-text font-size="0.9rem" font-weight="bold">QEMU Emulation</mj-text>
+        <mj-text><a href="https://en.wikipedia.org/wiki/QEMU">QEMU</a> is a generic and open source machine emulator and virtualizer. When used as a machine emulator, QEMU can run OSes and programs made for one machine (e.g. an ARM board) on a different machine
+          (e.g. your own PC). By using dynamic translation, it achieves very good performance.</mj-text>
         <mj-text>
           <mj-text>Last month large bodies of code to improve QEMU emulation for the camera were contributed. Members of the community are now helping to perfect what's there.</mj-text>
-          <mj-text><a href="https://lab.apertus.org/T737">Labs thread</a></mj-text>
+          <mj-text><a href="https://lab.apertus.org/T737">Task 737</a> - QEMU Emulation</mj-text>
+        </mj-text>
       </mj-column>
     </mj-section>
-    
+
     <mj-section>
-      <mj-column>
-        <mj-text font-size="1.1rem">AXIOM Beta Brochure V2.2</mj-text>
+      <mj-column vertical-align="top">
+        <mj-text font-size="0.9rem" font-weight="bold">AXIOM Beta Brochure V2.2</mj-text>
         <mj-text>The first AXIOM Beta brochure was published this month. This is a comprehensive introduction to the camera and the wider project in PDF. It's an important document because it means that someone's introduction to the camera can be made concise
           and structured, whereas, because their pages are quite deep, visitng the website or project Wiki can be confusing to newcomers. Improving the website's structure over time is naturally something we should all aim towards.</mj-text>
         <mj-text>ABB can be shared and also stored on devices so that anyone can access all the important stuff offline, anytime, anywhere. The doc will eventually be printed.</mj-text>
         <mj-text><a href="https://www.apertus.org/AXIOM_Beta_Brochure_02.01.pdf">View/Download ABB</a></mj-text>
       </mj-column>
-      <mj-column>
-        <mj-text font-size="1.1rem">Hardware Update</mj-text>
+      <mj-column vertical-align="top">
+        <mj-text font-size="0.9rem" font-weight="bold">Hardware Update</mj-text>
         <mj-text>The 2nd generation Power Board development has reached a stage where the first complete prototype is about to be built - the boards from OSHpark have arrived and are going to be populated and tested extensively. The major changes of this new design
-          are digitally controlled voltages (instead of mechanically tuning tiny trimmer with a screwdriver in the generation 1 design) by using switching regulators and LDOs (higher efficiency & less heat than the V1 design which was based only on LDOs).
-          Also power management has been integrated into the V2 power board in such way that the AXIOM Beta can enter standby mode and power up/down in a similar way as the power button works on a laptop or desktop PC.</mj-text>
-        <mj-text><a href="#">___</a></mj-text>
+          are digitally controlled voltages (instead of mechanically tuning tiny trimmer with a screwdriver in the generation 1 design) by using switching regulators and LDOs (higher efficiency and less heat than the V1 design which was based only on
+          LDOs). Also power management has been integrated into the V2 power board in such way that the AXIOM Beta can enter standby mode and power up/down in a similar way as the power button works on a laptop.</mj-text>
+        <mj-text></mj-text>
+        <mj-text></mj-text>
+
       </mj-column>
+
     </mj-section>
 
+
     <mj-section>
-      <mj-column>
-        <mj-text font-size="1.1rem">ABCP Enclosure</mj-text>
+
+
+      <mj-column vertical-align="top">
+        <mj-text font-size="0.9rem" font-weight="bold">ABCP Enclosure</mj-text>
         <mj-text>Manfred, the project's chief engineer, has been covering the Olympics in PyeongChang this month, but on his return the practical works with respect to milling the first AXIOM Beta Compact enclosures will commence. Fingers crossed we may see some
           photos of Development for the March newsletter.</mj-text>
-        <mj-text><a href="https://lab.apertus.org/M34">M34 - Axiom Beta new enclosure and labeling.</a></mj-text>
+        <mj-text><a href="https://lab.apertus.org/M34">Mock 34</a> - Axiom Beta new enclosure and labeling.</mj-text>
       </mj-column>
-      <mj-column>
-        <mj-text font-size="1.1rem">Packaging</mj-text>
+
+      <mj-column vertical-align="top">
+        <mj-text font-size="0.9rem" font-weight="bold">Packaging</mj-text>
         <mj-text>A sample flight case was received from a company called <a href="https://www.vanguardworld.co.uk/">Vanguard</a>. At this point only ABDK has tried it on for size but there's a good chance that the case will accommodate ABCP, an AC adaptor, and
           still leave room for some extension modules or data cards. We'll try the case again when the enclosure is done.</mj-text>
-        <mj-text><a href="https://lab.apertus.org/T250">T250 - Research Packaging Solutions</a></mj-text>
+        <mj-text><a href="https://lab.apertus.org/T250">Task 250</a> - Research Packaging Solutions</mj-text>
+        <mj-text></mj-text>
         <mj-text></mj-text>
         <mj-text></mj-text>
       </mj-column>
@@ -119,32 +139,63 @@ margin-left: 1em;">Development updates</div> <a href="https://mastodon.social/@a
     <mj-section background-color="#fa8756" padding-top="0rem" padding-bottom="0rem">
       <mj-raw>
         <div style="display: flex; flex-basis: 0; height: 5rem; align-items: center;">
-          <div style="flex-grow: 7; color: #171615; font-weight: bold; font-size: 0.8rem;text-align: left;
-margin-left: 1em;">How to contribute</div> <a href="https://github.com/apertus-open-source-cinema"><img style="flex-grow: 1; width: 2rem; height: 2rem; margin-right: 0.3rem;" src="./images/github.png"></a> <a href="https://lab.apertus.org/home/"><img style="flex-grow: 1; width: 2rem; height: 2rem; margin-right: 0.3rem;" src="./images/labs.png"></a>          <a href="https://wiki.apertus.org/index.php/Main_Page"><img style="flex-grow: 1; width: 2rem; height: 2rem; margin-right: 1rem;" src="./images/wiki.png"></a> </div>
+          <div style="flex-grow: 7; color: #171615; font-weight: bold; font-size: 0.9rem;text-align: left;
+margin-left: 1.8em;">Contribution</div>
+          <a href="https://github.com/apertus-open-source-cinema"><img style="flex-grow: 1; width: 2rem; height: 2rem; margin-right: 1.5rem;" src="./images/github.png" /></a>
+          <a href="https://lab.apertus.org/home/"><img style="flex-grow: 1; width: 2rem; height: 2rem; margin-right: 1.5rem;" src="./images/labs.png" /></a>
+          <a href="https://wiki.apertus.org/index.php/Main_Page"><img style="flex-grow: 1; width: 2rem; height: 2rem; margin-right: 1.5rem;" src="./images/wiki.png" /></a>
+        </div>
       </mj-raw>
     </mj-section>
 
-    <mj-section>
+    <mj-section padding="0">
       <mj-column>
         <mj-image src="./images/AXIOM_WebRemote.png" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#474747" padding="0">
+      <mj-column>
         <mj-text background-color="rgb(71,71,71)" font-size="0.8rem" color="#f2f2f2">AXIOM-WebRemote</mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section>
       <mj-column>
-        <mj-text font-size="1.1rem">On Video Formats</mj-text>
+        <mj-text font-size="0.9rem" font-weight="bold">On Video Formats</mj-text>
         <mj-text>In the near future the camera's video stream will be transferred onto a computer via USB 3.0 and written to a file on disk there. The likely format being used then is a raw 12 bit image sensor dump with only small focus on adding metadata for
           post-processing. While this is absolutely adequate for the current development phase, there may be demand for a post-processing oriented container format.</mj-text>
         <mj-text>There's a thread in the labs that's part of this year's GSoC but feel free to contribute directly through programming or with ideas/information.</mj-text>
-        <mj-text><a href="https://lab.apertus.org/T951">T951 - Raw Video Container Format</a></mj-text>
+        <mj-text><a href="https://lab.apertus.org/T951">Task 951</a> - Raw Video Container Format</mj-text>
         <mj-text></mj-text>
-        <mj-text font-size="1.1rem">AXIOM WebRemote</mj-text>
-        <mj-text>This month an AXIOM Beta Developer Kit was shipped to the Neptec research lab in North America. The team there are building a camera that's destined for the International Space Station and ABDK is being used as a reference to work from. Whilst
-          the camera didn't quite make it this time, it's one step closer to being launched into outer space. Links to reading in Case Studies.</mj-text>
-        <mj-text padding-bottom="0px"><a href="https://wiki.apertus.org/index.php/AXIOM_Beta/Case_Studies">Case Studies</a></mj-text>
-        <mj-text padding-bottom="0px" padding-top="0.1rem"><a href="https://wiki.apertus.org/index.php/AXIOM_Beta/Case_Studies">Case Studies</a></mj-text>
-        <mj-text padding-bottom="0px" padding-top="0.1rem"><a href="https://wiki.apertus.org/index.php/AXIOM_Beta/Case_Studies">Case Studies</a></mj-text>
+        <mj-text></mj-text>
+        <mj-text font-size="0.9rem" font-weight="bold">Bidirectional Packet Protocol for FPGA Communication</mj-text>
+        <mj-text>The AXIOM Beta features two Lattice MachXO2 in addition to the Xilinx ZYNQ SoC which act as routing fabrics and extend the limited IOs from the main FPGA. The MachXO2s are connected via a single LVDS pair and share a common clock with the ZYNQ.
+          A Packet Protocol is required to utilize the bandwidth and support various bus protocols on the Lattice FPGAs (I2C, SPI, GPIO ...)</mj-text>
+        <mj-text padding-bottom="0px"><a href="https://lab.apertus.org/T731">Task 731</a></mj-text>
+
+        <mj-text></mj-text>
+        <mj-text></mj-text>
+
+        <mj-text font-size="0.9rem" font-weight="bold">Linux Kernel Driver</mj-text>
+        <mj-text>The AXIOM Beta features an FTDI connected to the ZYNQ JTAG port and internal I2C bus. While the FTDI JTAG can be already used with OpenOCD, the I2C bus is missing kernel support.
+        </mj-text>
+        <mj-text padding-bottom="0px"><a href="https://lab.apertus.org/T730">Task 730</a> - Linux Kernel Driver for AXIOM Beta Debug Interface</mj-text>
+        <mj-text padding-bottom="0px" padding-top="0rem"><a href="#"></a></mj-text>
+
+        <mj-text></mj-text>
+        <mj-text></mj-text>
+
+        <mj-text font-size="0.9rem" font-weight="bold">USB3.0 Plugin Module</mj-text>
+        <mj-text>The AXIOM Beta will soon feature a USB 3.0 Plugin with a Lattic FPGA to transfer raw video data via USB. Immediate goals are to implement gearwork and communication interface, implement link training, and to simulate/test the interface and gearwork.
+          HDL and SERDES Know-how required.</mj-text>
+        <mj-text>To correspond, a PC-side receiver is reliant on the successful completion of this task.
+        </mj-text>
+
+        <mj-text padding-bottom="0px"><a href="https://lab.apertus.org/T885">Task 885</a> - USB Module Gearwork</mj-text>
+        <mj-text padding-bottom="0px" padding-top="0rem"><a href="#"></a></mj-text>
+
+        <mj-text></mj-text>
         <mj-text></mj-text>
       </mj-column>
     </mj-section>
@@ -156,21 +207,41 @@ margin-left: 1em;">How to contribute</div> <a href="https://github.com/apertus-o
         <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://www.apertus.org/axiom-beta-modularity">Camera structure</a></mj-text>
         <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://www.apertus.org/AXIOM_Beta_Brochure_02.01.pdf">ABB PDF</a></mj-text>
         <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://wiki.apertus.org/index.php/AXIOM_Beta/Video">Video archive</a></mj-text>
-        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://www.apertus.org/axiom-beta-status">Development Status</a></mj-text>
+        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://www.apertus.org/axiom-beta-status">Development status</a></mj-text>
       </mj-column>
       <mj-column vertical-align="top">
-        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://wiki.apertus.org/index.php/Join_the_Team">Join the Team</a></mj-text>
-        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://github.com/apertus-open-source-cinema">GitHub repos</a></mj-text>
-        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://lab.apertus.org/home/">apertus° Labs</a></mj-text>
-        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://wiki.apertus.org/index.php/Research_Pending">Research Pending</a></mj-text>
-        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://wiki.apertus.org/index.php/Image_Sensor_Table">Wiki: Sensor Table</a></mj-text>
+        <mj-text padding-bottom="0px" font-size="0.75rem">
+          <a class="useful-link" href="https://wiki.apertus.org/index.php/Join_the_Team">Join the Team</a>
+        </mj-text>
+        <mj-text padding-bottom="0px" font-size="0.75rem">
+          <a class="useful-link" href="https://github.com/apertus-open-source-cinema">GitHub repos</a>
+        </mj-text>
+        <mj-text padding-bottom="0px" font-size="0.75rem">
+          <a class="useful-link" href="https://lab.apertus.org/home/">apertus° Labs</a>
+        </mj-text>
+        <mj-text padding-bottom="0px" font-size="0.75rem">
+          <a class="useful-link" href="https://wiki.apertus.org/index.php/Research_Pending">Research Pending</a>
+        </mj-text>
+        <mj-text padding-bottom="0px" font-size="0.75rem">
+          <a class="useful-link" href="https://wiki.apertus.org/index.php/Image_Sensor_Table">Wiki: Sensor Table</a>
+        </mj-text>
       </mj-column>
       <mj-column vertical-align="top">
-        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://wiki.apertus.org/index.php/AXIOM_Project_Background">Project background</a></mj-text>
-        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://www.apertus.org/mission-statement">Mission Statement</a></mj-text>
-        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://wiki.apertus.org/index.php/Social">Social accounts</a></mj-text>
-        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://www.apertus.org/faq">FAQs</a></mj-text>
-        <mj-text padding-bottom="0px" font-size="0.75rem"><a class="useful-link" href="https://www.apertus.org/donate">Donate</a></mj-text>
+        <mj-text padding-bottom="0px" font-size="0.75rem">
+          <a class="useful-link" href="https://wiki.apertus.org/index.php/AXIOM_Project_Background">Project background</a>
+        </mj-text>
+        <mj-text padding-bottom="0px" font-size="0.75rem">
+          <a class="useful-link" href="https://www.apertus.org/mission-statement">Mission Statement</a>
+        </mj-text>
+        <mj-text padding-bottom="0px" font-size="0.75rem">
+          <a class="useful-link" href="https://wiki.apertus.org/index.php/Social">Social accounts</a>
+        </mj-text>
+        <mj-text padding-bottom="0px" font-size="0.75rem">
+          <a class="useful-link" href="https://www.apertus.org/faq">FAQs</a>
+        </mj-text>
+        <mj-text padding-bottom="0px" font-size="0.75rem">
+          <a class="useful-link" href="https://www.apertus.org/donate">Donate</a>
+        </mj-text>
         <mj-text></mj-text>
         <mj-text></mj-text>
       </mj-column>
@@ -180,11 +251,12 @@ margin-left: 1em;">How to contribute</div> <a href="https://github.com/apertus-o
       <mj-column>
         <mj-text></mj-text>
         <mj-image width="100px" src="./images/logo.png" align="center"></mj-image>
-        <mj-text font-size="0.7rem" align="center"><a href="mailto:team@apertus.org">team@apertus.org</a> |
-          <mj-text font-size="0.7rem" align="center"><a href="https://www.apertus.org/">apertus.org</a></mj-text>
-          <mj-text font-size="0.8rem" align="center"><a href="mailto:team@apertus.org">Forward</a> this newsletter |
-            <mj-text font-size="0.8rem" align="center"><a href="https://www.apertus.org/">Unsubscribe</a></mj-text>
-            <mj-text font-size="0.5rem" align="center">© apertus° community 2006-2018 | Content available under CC-BY 4.0 International license</mj-text>
+        <mj-text font-size="0.7rem" align="center"><a href="mailto:team@apertus.org">team@apertus.org</a></mj-text> |
+        <mj-text font-size="0.7rem" align="center"><a href="https://www.apertus.org/">apertus.org</a></mj-text>
+        <mj-text font-size="0.8rem" align="center"><a href="mailto:team@apertus.org">Forward</a></mj-text> this newsletter |
+        <mj-text font-size="0.8rem" align="center"> Provide <a href="https://lab.apertus.org/T986">feedback</a></mj-text> |
+        <mj-text font-size="0.8rem" align="center"><a href="https://www.apertus.org/">Unsubscribe</a></mj-text>
+        <mj-text font-size="0.5rem" align="center">© apertus° community 2006-2018 | Content available under CC-BY 4.0 International license</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
