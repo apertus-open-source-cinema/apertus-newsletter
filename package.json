@@ -9,10 +9,10 @@
   "author": "apertus°",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-exec": "^3.0.1",
     "gulp-livereload": "^3.8.1",
-    "gulp-mjml": "^2.3.0",
+    "gulp-mjml": "^4.0.2",
     "gulp-webserver": "^0.9.1",
     "mjml": "^4.0.0-beta.2",
     "pump": "^3.0.0"
